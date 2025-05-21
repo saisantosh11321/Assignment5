@@ -1,0 +1,5 @@
+dic = {'Alice':85, 'James':70, 'Peter': 80, 'Gwen':95}
+student_name = input('Enter the student\'s name: ')
+if student_name in dic:
+    print(f"{student_name}'s marks: {dic[student_name]}")
+else : print('Student not found')
